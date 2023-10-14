@@ -1,4 +1,4 @@
-package ru.netology.pdd;
+package ru.netology.pdd.data;
 
 import lombok.Value;
 

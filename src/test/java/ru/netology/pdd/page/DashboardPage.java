@@ -1,8 +1,9 @@
-package ru.netology.pdd;
+package ru.netology.pdd.page;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+import ru.netology.pdd.data.DataHelper;
 
 import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Condition.visible;

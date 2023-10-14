@@ -1,11 +1,13 @@
-package ru.netology.pdd;
+package ru.netology.pdd.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import ru.netology.pdd.page.DashboardPage;
+import ru.netology.pdd.page.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.netology.pdd.DataHelper.*;
+import static ru.netology.pdd.data.DataHelper.*;
 
 
 public class MoneyTransferTest {
